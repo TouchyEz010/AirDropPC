@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+zeroconf>=0.131
+PyQt6>=6.6
+qrcode>=7.4
+windows-toasts>=1.1 ; sys_platform == "win32"
+# optional: HEIC thumbnails in the transfer list
+# pillow>=10
+# pillow-heif>=0.16
